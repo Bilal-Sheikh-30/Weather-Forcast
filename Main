@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <curl/curl.h>
+#include <jansson.h>
+
+size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp) {
+    size_t realsize = size * nmemb;
+    json_t **json = (json_t **)userp;
+
+    *json = json_loadb(contents, realsize, JSON_DECODE_ANY, NULL);
+
+    return realsize;
+}
+
+int main() {
+    CURL *curl;
+    CURLcode res;
+
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+
+    curl = curl_easy_init();
+    if (curl) {
+        json_t *json = NULL;
+
+        // Replace placeholders in the URL with actual values
+        char url[256];
+        snprintf(url, sizeof(url), "https://api.openweathermap.org/data/2.5/forecast?lat=24.8&lon=66&appid=960ab4072cce45cce5e399e8453ed270&units=metric");
+
+        curl_easy_setopt(curl, CURLOPT_URL, url);
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &json);
+
+        res = curl_easy_perform(curl);
+        if (res != CURLE_OK) {
+            fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
+        } else {
+            // Check if JSON parsing was successful
+            if (json) {
+                // Extract information from the forecast array (example for the first item)
+                const char *description = json_string_value(json_array_get(json_object_get(json, "list"), 0));
+
+                // Print a simple weather report (example for the first item)
+                printf("Weather Report:\n");
+                printf("Description: %s\n", description);
+
+                // Clean up
+                json_decref(json);
+
+            } else {
+                fprintf(stderr, "Failed to parse JSON.\n");
+            }
+        }
+
+        // Clean up
+        curl_easy_cleanup(curl);
+    }
+
+    curl_global_cleanup();
+
+    return 0;
+}
