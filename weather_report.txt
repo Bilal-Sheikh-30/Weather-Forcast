@@ -1,0 +1,50 @@
+
+--- WEATHER FORCAST ---
+
+Date: 2024-01-13
+Average Temperature: 22.54
+Average Min Temperature: 21.26
+Average Max Temperature: 22.54
+Average Pressure: 1015.00
+Average Feels Like: 22.69
+Average Humidity: 70.33
+
+Date: 2024-01-14
+Average Temperature: 21.89
+Average Min Temperature: 21.89
+Average Max Temperature: 21.89
+Average Pressure: 1016.25
+Average Feels Like: 22.05
+Average Humidity: 73.25
+
+Date: 2024-01-15
+Average Temperature: 22.11
+Average Min Temperature: 22.11
+Average Max Temperature: 22.11
+Average Pressure: 1014.12
+Average Feels Like: 22.37
+Average Humidity: 76.62
+
+Date: 2024-01-16
+Average Temperature: 22.57
+Average Min Temperature: 22.57
+Average Max Temperature: 22.57
+Average Pressure: 1010.25
+Average Feels Like: 23.05
+Average Humidity: 82.75
+
+Date: 2024-01-17
+Average Temperature: 22.74
+Average Min Temperature: 22.74
+Average Max Temperature: 22.74
+Average Pressure: 1010.38
+Average Feels Like: 22.95
+Average Humidity: 72.25
+
+Date: 2024-01-18
+Average Temperature: 23.83
+Average Min Temperature: 23.83
+Average Max Temperature: 23.83
+Average Pressure: 1013.20
+Average Feels Like: 23.33
+Average Humidity: 37.40
