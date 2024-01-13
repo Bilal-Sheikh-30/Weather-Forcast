@@ -85,7 +85,7 @@ int main() {
 		}
                 const char *to = "imowais728@gmail.com";
                 const char *file_path = "todayStatus.txt";
-                if ((tm_info->tm_mon >= 10 || tm_info->tm_mon <= 1) && temperature > 10) {
+                if ((tm_info->tm_mon >= 10 || tm_info->tm_mon <= 1) && temperature < 10) {
                     writeStatusFile("todayStatus.txt", contentBuffer, "It is too cold today.\nPRECAUTIONS: Wear warm clothes");
                     int result = send_email_with_attachment(to, file_path);
 
