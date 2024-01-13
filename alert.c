@@ -2,6 +2,7 @@
 #include <string.h>
 #include <time.h>
 #include <stdlib.h>
+#include "email_sender.h"
 
 #define MAX_LINE_LENGTH 256
 
@@ -82,11 +83,27 @@ int main() {
     			// Move to the next line
     			linePtr += strlen(line) + 1;
 		}
+                const char *to = "imowais728@gmail.com";
+                const char *file_path = "todayStatus.txt";
                 if ((tm_info->tm_mon >= 10 || tm_info->tm_mon <= 1) && temperature > 10) {
                     writeStatusFile("todayStatus.txt", contentBuffer, "It is too cold today.\nPRECAUTIONS: Wear warm clothes");
+                    int result = send_email_with_attachment(to, file_path);
+
+                    if (result == 0) {
+                        printf("Email sent successfully.\n");
+                    } else {
+                        printf("Failed to send email.\n");
+                    }
                     
                 } else if (tm_info->tm_mon >= 2 && tm_info->tm_mon <= 9 && temperature > 35) {
                     writeStatusFile("todayStatus.txt", contentBuffer, "It is too hot today.\nPRECAUTIONS: wear light clothes and drink more water");
+                    int result = send_email_with_attachment(to, file_path);
+
+                    if (result == 0) {
+                        printf("Email sent successfully.\n");
+                    } else {
+                        printf("Failed to send email.\n");
+                    }
                    
                 }
 
