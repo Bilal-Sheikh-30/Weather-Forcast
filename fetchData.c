@@ -18,38 +18,14 @@ size_t write_callback(void *contents, size_t size, size_t nmemb, char **output) 
     return realsize;
 }
 
-// Function to get latitude and longitude based on city name
-void getLatLonFromCity(const char *city, double *lat, double *lon) {
-    if (strcmp(city, "karachi") == 0) {
-        *lat = 24.8;
-        *lon = 67;
-    } else if (strcmp(city, "lahore") == 0) {
-        *lat = 31.5;
-        *lon = 74.35;
-    } else if (strcmp(city, "isl") == 0 || strcmp(city, "islamabad") == 0) {
-        *lat = 33.68;
-        *lon = 73.04;
-    } else {
-        fprintf(stderr, "Unsupported city: %s\n", city);
-        exit(EXIT_FAILURE);
-    }
-}
 
 int main() {
     CURL *curl;
     CURLcode res;
-
-    // Redirect standard output to a file
-    char city[20];
-    printf("Enter city name (karachi, lahore, isl): ");
-    scanf("%s", city);
-
-    // Open the file with the specified city name
-    char filename[50];
-    snprintf(filename, sizeof(filename), "%s_database.txt", city);
-    FILE *file = fopen(filename, "a");
+    
+    FILE *file = fopen("karachi_database.txt", "w");
     if (file == NULL) {
-        fprintf(stderr, "Failed to open file for writing: %s\n", filename);
+        fprintf(stderr, "Failed to open file for writing: database\n");
         exit(EXIT_FAILURE);
     }
     // Redirect standard output to the file
@@ -61,13 +37,10 @@ int main() {
     curl = curl_easy_init();
 
     if (curl) {
-        // Get latitude and longitude based on the city name
-        double lat, lon;
-        getLatLonFromCity(city, &lat, &lon);
 
         // Construct the API URL
         char url[200];
-        snprintf(url, sizeof(url), "https://api.openweathermap.org/data/2.5/forecast?lat=%.5f&lon=%.5f&appid=960ab4072cce45cce5e399e8453ed270", lat, lon);
+        snprintf(url, sizeof(url), "https://api.openweathermap.org/data/2.5/forecast?lat=24.8&lon=67.00&appid=960ab4072cce45cce5e399e8453ed270&units=metric");
 
         // Perform the HTTP GET request
         curl_easy_setopt(curl, CURLOPT_URL, url);

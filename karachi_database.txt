@@ -1,0 +1,359 @@
+Time: 2024-01-13 15:00:00
+Temperature: 23.16
+Feels Like: 23.36
+Min Temperature: 21.33
+Max Temperature: 23.16
+Pressure: 1016
+Humidity: 70
+Weather description: scattered clouds
+
+Time: 2024-01-13 18:00:00
+Temperature: 22.54
+Feels Like: 22.73
+Min Temperature: 21.29
+Max Temperature: 22.54
+Pressure: 1016
+Humidity: 72
+Weather description: few clouds
+
+Time: 2024-01-13 21:00:00
+Temperature: 21.83
+Feels Like: 22.03
+Min Temperature: 21.17
+Max Temperature: 21.83
+Pressure: 1015
+Humidity: 75
+Weather description: few clouds
+
+Time: 2024-01-14 00:00:00
+Temperature: 20.96
+Feels Like: 21.15
+Min Temperature: 20.96
+Max Temperature: 20.96
+Pressure: 1015
+Humidity: 78
+Weather description: broken clouds
+
+Time: 2024-01-14 03:00:00
+Temperature: 21.06
+Feels Like: 21.26
+Min Temperature: 21.06
+Max Temperature: 21.06
+Pressure: 1017
+Humidity: 78
+Weather description: overcast clouds
+
+Time: 2024-01-14 06:00:00
+Temperature: 22.55
+Feels Like: 22.66
+Min Temperature: 22.55
+Max Temperature: 22.55
+Pressure: 1018
+Humidity: 69
+Weather description: overcast clouds
+
+Time: 2024-01-14 09:00:00
+Temperature: 23.37
+Feels Like: 23.43
+Min Temperature: 23.37
+Max Temperature: 23.37
+Pressure: 1015
+Humidity: 64
+Weather description: few clouds
+
+Time: 2024-01-14 12:00:00
+Temperature: 22.86
+Feels Like: 22.90
+Min Temperature: 22.86
+Max Temperature: 22.86
+Pressure: 1015
+Humidity: 65
+Weather description: clear sky
+
+Time: 2024-01-14 15:00:00
+Temperature: 21.77
+Feels Like: 21.99
+Min Temperature: 21.77
+Max Temperature: 21.77
+Pressure: 1017
+Humidity: 76
+Weather description: clear sky
+
+Time: 2024-01-14 18:00:00
+Temperature: 21.48
+Feels Like: 21.72
+Min Temperature: 21.48
+Max Temperature: 21.48
+Pressure: 1017
+Humidity: 78
+Weather description: clear sky
+
+Time: 2024-01-14 21:00:00
+Temperature: 21.05
+Feels Like: 21.25
+Min Temperature: 21.05
+Max Temperature: 21.05
+Pressure: 1016
+Humidity: 78
+Weather description: clear sky
+
+Time: 2024-01-15 00:00:00
+Temperature: 20.67
+Feels Like: 20.83
+Min Temperature: 20.67
+Max Temperature: 20.67
+Pressure: 1015
+Humidity: 78
+Weather description: clear sky
+
+Time: 2024-01-15 03:00:00
+Temperature: 20.73
+Feels Like: 20.92
+Min Temperature: 20.73
+Max Temperature: 20.73
+Pressure: 1016
+Humidity: 79
+Weather description: clear sky
+
+Time: 2024-01-15 06:00:00
+Temperature: 22.69
+Feels Like: 22.87
+Min Temperature: 22.69
+Max Temperature: 22.69
+Pressure: 1017
+Humidity: 71
+Weather description: clear sky
+
+Time: 2024-01-15 09:00:00
+Temperature: 23.58
+Feels Like: 23.82
+Min Temperature: 23.58
+Max Temperature: 23.58
+Pressure: 1013
+Humidity: 70
+Weather description: few clouds
+
+Time: 2024-01-15 12:00:00
+Temperature: 23.07
+Feels Like: 23.36
+Min Temperature: 23.07
+Max Temperature: 23.07
+Pressure: 1012
+Humidity: 74
+Weather description: clear sky
+
+Time: 2024-01-15 15:00:00
+Temperature: 22.25
+Feels Like: 22.57
+Min Temperature: 22.25
+Max Temperature: 22.25
+Pressure: 1014
+Humidity: 78
+Weather description: scattered clouds
+
+Time: 2024-01-15 18:00:00
+Temperature: 22.00
+Feels Like: 22.34
+Min Temperature: 22.00
+Max Temperature: 22.00
+Pressure: 1014
+Humidity: 80
+Weather description: broken clouds
+
+Time: 2024-01-15 21:00:00
+Temperature: 21.86
+Feels Like: 22.27
+Min Temperature: 21.86
+Max Temperature: 21.86
+Pressure: 1012
+Humidity: 83
+Weather description: broken clouds
+
+Time: 2024-01-16 00:00:00
+Temperature: 21.81
+Feels Like: 22.27
+Min Temperature: 21.81
+Max Temperature: 21.81
+Pressure: 1011
+Humidity: 85
+Weather description: scattered clouds
+
+Time: 2024-01-16 03:00:00
+Temperature: 21.82
+Feels Like: 22.28
+Min Temperature: 21.82
+Max Temperature: 21.82
+Pressure: 1012
+Humidity: 85
+Weather description: scattered clouds
+
+Time: 2024-01-16 06:00:00
+Temperature: 23.44
+Feels Like: 23.82
+Min Temperature: 23.44
+Max Temperature: 23.44
+Pressure: 1013
+Humidity: 76
+Weather description: broken clouds
+
+Time: 2024-01-16 09:00:00
+Temperature: 23.99
+Feels Like: 24.35
+Min Temperature: 23.99
+Max Temperature: 23.99
+Pressure: 1009
+Humidity: 73
+Weather description: overcast clouds
+
+Time: 2024-01-16 12:00:00
+Temperature: 23.36
+Feels Like: 23.71
+Min Temperature: 23.36
+Max Temperature: 23.36
+Pressure: 1008
+Humidity: 75
+Weather description: broken clouds
+
+Time: 2024-01-16 15:00:00
+Temperature: 22.41
+Feels Like: 23.00
+Min Temperature: 22.41
+Max Temperature: 22.41
+Pressure: 1010
+Humidity: 88
+Weather description: broken clouds
+
+Time: 2024-01-16 18:00:00
+Temperature: 22.05
+Feels Like: 22.66
+Min Temperature: 22.05
+Max Temperature: 22.05
+Pressure: 1010
+Humidity: 90
+Weather description: scattered clouds
+
+Time: 2024-01-16 21:00:00
+Temperature: 21.70
+Feels Like: 22.28
+Min Temperature: 21.70
+Max Temperature: 21.70
+Pressure: 1009
+Humidity: 90
+Weather description: clear sky
+
+Time: 2024-01-17 00:00:00
+Temperature: 21.33
+Feels Like: 21.87
+Min Temperature: 21.33
+Max Temperature: 21.33
+Pressure: 1008
+Humidity: 90
+Weather description: clear sky
+
+Time: 2024-01-17 03:00:00
+Temperature: 21.37
+Feels Like: 21.91
+Min Temperature: 21.37
+Max Temperature: 21.37
+Pressure: 1010
+Humidity: 90
+Weather description: scattered clouds
+
+Time: 2024-01-17 06:00:00
+Temperature: 23.03
+Feels Like: 23.37
+Min Temperature: 23.03
+Max Temperature: 23.03
+Pressure: 1012
+Humidity: 76
+Weather description: scattered clouds
+
+Time: 2024-01-17 09:00:00
+Temperature: 24.48
+Feels Like: 24.60
+Min Temperature: 24.48
+Max Temperature: 24.48
+Pressure: 1009
+Humidity: 62
+Weather description: clear sky
+
+Time: 2024-01-17 12:00:00
+Temperature: 23.94
+Feels Like: 24.03
+Min Temperature: 23.94
+Max Temperature: 23.94
+Pressure: 1009
+Humidity: 63
+Weather description: clear sky
+
+Time: 2024-01-17 15:00:00
+Temperature: 22.87
+Feels Like: 23.04
+Min Temperature: 22.87
+Max Temperature: 22.87
+Pressure: 1011
+Humidity: 70
+Weather description: clear sky
+
+Time: 2024-01-17 18:00:00
+Temperature: 22.46
+Feels Like: 22.56
+Min Temperature: 22.46
+Max Temperature: 22.46
+Pressure: 1012
+Humidity: 69
+Weather description: scattered clouds
+
+Time: 2024-01-17 21:00:00
+Temperature: 22.42
+Feels Like: 22.23
+Min Temperature: 22.42
+Max Temperature: 22.42
+Pressure: 1012
+Humidity: 58
+Weather description: few clouds
+
+Time: 2024-01-18 00:00:00
+Temperature: 22.08
+Feels Like: 21.47
+Min Temperature: 22.08
+Max Temperature: 22.08
+Pressure: 1012
+Humidity: 43
+Weather description: clear sky
+
+Time: 2024-01-18 03:00:00
+Temperature: 21.68
+Feels Like: 20.92
+Min Temperature: 21.68
+Max Temperature: 21.68
+Pressure: 1014
+Humidity: 39
+Weather description: clear sky
+
+Time: 2024-01-18 06:00:00
+Temperature: 24.40
+Feels Like: 23.73
+Min Temperature: 24.40
+Max Temperature: 24.40
+Pressure: 1015
+Humidity: 32
+Weather description: clear sky
+
+Time: 2024-01-18 09:00:00
+Temperature: 25.99
+Feels Like: 25.99
+Min Temperature: 25.99
+Max Temperature: 25.99
+Pressure: 1013
+Humidity: 35
+Weather description: clear sky
+
+Time: 2024-01-18 12:00:00
+Temperature: 24.98
+Feels Like: 24.53
+Min Temperature: 24.98
+Max Temperature: 24.98
+Pressure: 1012
+Humidity: 38
+Weather description: clear sky
