@@ -83,7 +83,7 @@ int main() {
     			// Move to the next line
     			linePtr += strlen(line) + 1;
 		}
-                const char *to = "imowais728@gmail.com";
+                const char *to = "receipant_email";
                 const char *file_path = "todayStatus.txt";
                 if ((tm_info->tm_mon >= 10 || tm_info->tm_mon <= 1) && temperature < 10) {
                     writeStatusFile("todayStatus.txt", contentBuffer, "It is too cold today.\nPRECAUTIONS: Wear warm clothes");

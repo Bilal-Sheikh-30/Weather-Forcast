@@ -3,7 +3,7 @@
 
 
 int main() {
-    const char *to = "imowais728@gmail.com";
+    const char *to = "receipant email";
     const char *file_path = "weather_report.txt";
     
 

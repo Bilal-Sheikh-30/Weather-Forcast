@@ -27,7 +27,7 @@ int send_email_with_attachment(const char *to, const char *file_path) {
         // Specify email server details
         // For Gmail
         curl_easy_setopt(curl, CURLOPT_URL, "smtps://smtp.gmail.com");
-        curl_easy_setopt(curl, CURLOPT_USERPWD, "bilalsheikh3011@gmail.com:dlphqrjrfolbhnuy");
+        curl_easy_setopt(curl, CURLOPT_USERPWD, "sender's email : sender's app password");
         curl_easy_setopt(curl, CURLOPT_USE_SSL, CURLUSESSL_ALL);
 
         // Add email recipients
